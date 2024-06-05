@@ -1,0 +1,85 @@
+/* Import de la police Raleway */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+
+/* Style général pour le corps de la page */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le formulaire de login */
+.login-form {
+    margin-top: 50px;
+}
+
+/* Style pour le conteneur principal */
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* Style pour la carte de login */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Style pour l'en-tête de la carte */
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style pour les étiquettes des champs */
+.username,
+.pass {
+    font-weight: bold;
+}
+
+/* Style pour les champs de saisie */
+.usernamein,
+.password {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour le bouton de soumission */
+.btn {
+    text-align: center;
+}
+
+/* Style pour le lien "Remember Me" */
+.rememberme {
+    margin-bottom: 15px;
+}
+
+/* Style pour les erreurs de validation */
+.text-danger {
+    color: #dc3545;
+    font-size: 14px;
+}
+
+/* Style pour le bouton de soumission */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
